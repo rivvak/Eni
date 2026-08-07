@@ -1,0 +1,31 @@
+[2026-08-02T04:41:36.735Z] [supervisor] ─── daemon start ─── version=2.1.220 pid=616 origin=transient
+[2026-08-02T04:41:37.439Z] [supervisor] auth: no token found, will re-check keychain every 30s
+[2026-08-02T04:41:38.054Z] [supervisor] workers=0
+[2026-08-02T04:41:38.078Z] [bg] bg: control socket bound at \\.\pipe\cc-daemon-*-control
+[2026-08-02T04:41:38.219Z] [bg] bg spawned 878c859c (slash)
+[2026-08-02T04:41:38.267Z] [bg] bg spawned bc35ef4e (spare)
+[2026-08-02T04:42:38.367Z] [bg] bg settled bc35ef4e (done)
+[2026-08-02T04:50:38.371Z] [bg] bg settled 878c859c (done)
+[2026-08-02T04:50:43.377Z] [supervisor] idle 5s with no clients — exiting
+[2026-08-02T04:50:43.379Z] [supervisor] shutting down (cause=idle_exit, uptime=546s, leases=0, live_workers=0)
+[2026-08-02T04:50:46.737Z] [supervisor] ─── daemon start ─── version=2.1.220 pid=30468 origin=transient
+[2026-08-02T04:50:47.398Z] [supervisor] auth: no token found, will re-check keychain every 30s
+[2026-08-02T04:50:48.005Z] [supervisor] workers=0
+[2026-08-02T04:50:48.028Z] [bg] bg: control socket bound at \\.\pipe\cc-daemon-*-control
+[2026-08-02T04:50:48.174Z] [bg] bg spawned d1103c4f (spare)
+[2026-08-02T04:50:48.175Z] [bg] bg spawned 0cf54430 (slash)
+[2026-08-02T04:50:54.067Z] [bg] bg: low memory (358MB free) — retiring settled workers before spawning 878c859c
+[2026-08-02T04:50:54.124Z] [bg] bg spawned 878c859c (fleet)
+[2026-08-02T04:51:48.246Z] [bg] bg settled d1103c4f (done)
+[2026-08-02T04:52:48.225Z] [bg] bg settled 0cf54430 (done)
+[2026-08-04T03:15:10.548Z] [supervisor] ─── daemon start ─── version=2.1.220 pid=53356 origin=transient
+[2026-08-04T03:15:11.673Z] [supervisor] auth: no token found, will re-check keychain every 30s
+[2026-08-04T03:15:12.486Z] [supervisor] workers=0
+[2026-08-04T03:15:12.535Z] [bg] bg: control socket bound at \\.\pipe\cc-daemon-*-control
+[2026-08-04T03:15:12.546Z] [bg] bg adopt: adopted=0 respawned=0 dead=1
+[2026-08-04T03:15:12.607Z] [bg] bg spawned 62f8376f (slash)
+[2026-08-04T03:15:12.668Z] [bg] bg spawned ad89ee88 (spare)
+[2026-08-04T04:15:33.847Z] [bg] bg settled ad89ee88 (done)
+[2026-08-04T05:19:35.676Z] [bg] bg settled 62f8376f (done)
+[2026-08-04T05:19:40.679Z] [supervisor] idle 5s with no clients — exiting
+[2026-08-04T05:19:40.685Z] [supervisor] shutting down (cause=idle_exit, uptime=7469s, leases=0, live_workers=0)
